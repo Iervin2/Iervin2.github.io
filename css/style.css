@@ -1,0 +1,346 @@
+.body{
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+#navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    width: 75vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#navTitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    width: 36vw;
+    margin-left: 9vw;
+}
+
+#logo{
+    position: relative;
+    width: 9vw;
+    height: 4vw;
+}
+
+#topHeader{
+    font-size: 2.5vh;
+    font-weight: 600;
+}
+
+#navButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navButton{
+    border: 0;
+    background-color: #FFFFFF;
+    font-size: 2vh;
+}
+
+#bigImg{
+    position: relative;
+    width: 100%;
+    height: 34vw;
+}
+
+#contentWrapper{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#leftContainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-right: 3vw;
+    border-right: #DCE4EA 1px solid;
+}
+
+#pathwayBar{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #F5F5F5;
+    width: 38vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-left: 9vw;
+}
+
+.pathway{
+    color: #BE0523;
+    font-size: 1.8vh;
+}
+
+#active{
+    color: #777777
+}
+
+.space{
+    color: #CCCCCC;
+    font-size: 1.8vh;
+}
+
+#eventBar{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F5F5F5;
+    border: 1px solid;
+    border-color: #E3E3E3;
+    border-radius: 0.25rem;
+    width: 38vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 15px;
+    margin-left: 9vw;
+    margin-top: 15px;
+}
+
+#eventName{
+    position: relative;
+    margin-left: 1vw;
+    font-size: 2vh;
+    font-weight: 700;
+    align-self: center;
+}
+
+#eventTime{
+    position: relative;
+    margin-left: 1vw;
+    font-size: 1.8vh;
+    font-weight: 700;
+    align-self: center;
+}
+
+#eventDescript{
+    position: relative;
+    margin-left: 1vw;
+    font-size: 1.8vh;
+    font-weight: 700;
+    align-self: center;
+}
+
+#eventInfo{
+    position: relative;
+    margin-left: 1vw;
+    font-size: 1.8vh;
+    font-weight: 400;
+    align-self: center;
+}
+
+#eventLink{
+    position: relative;
+    margin-left: 1vw;
+    margin-top: 22px;
+    align-self: center;
+}
+
+#eventButton{
+    position: relative;
+    margin-left: 1vw;
+    font-weight: 600;
+    background-color: #F5F5F5;
+    color: #BE0523;
+    border-color: #BE0523;
+    border-radius: 0.5rem;
+    width: 7vw;
+    height: 4vh;
+    font-size: 1.8vh;
+    margin-top: 22px;
+    align-self: center;
+}
+
+#eventButton:hover{
+    background-color:  #BE0523;
+    color: #F5F5F5;
+}
+
+#statement{
+    position: relative;
+    width: 40vw;
+    font-size: 1.9vh;
+    font-weight: 800;
+    margin-top: 15px;
+    margin-left: 10vw;
+}
+
+.spacer{
+    position: relative;
+    background-color: #EEEEEE;
+    width: 42vw;
+    height: 1px;
+    margin-top: 15px;
+    margin-left: 9vw;
+    margin-bottom: 15px;
+}
+
+.contentHeader{
+    position: relative;
+    width: 40vw;
+    font-size: 1.9vh;
+    font-weight: 600;
+    margin-left: 10vw;
+}
+
+.contentInfo{
+    position: relative;
+    width: 40vw;
+    font-size: 1.8vh;
+    font-weight: 400;
+    margin-left: 10vw;
+}
+
+.contentCard{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #0E2D52;
+    width: 36vw;
+    font-size: 1.8vh;
+    font-weight: 400;
+    margin-left: 12vw;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+}
+
+.cardHeader{
+    position: relative;
+    color: #FFFFFF;
+    font-size: 2.2vh;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 5vw;
+}
+
+.cardInfo{
+    position: relative;
+    color: #FFFFFF;
+    width: 26vw;
+    font-size: 1.9vh;
+    font-weight: 400;
+    margin-left: 5vw;
+}
+
+.cardEnder{
+    position: relative;
+    color: #FFFFFF;
+    background-color: #0E2D52;
+    border: 0;
+    border-bottom: #BE0523 1px solid;
+    width: 6.5vw;
+    text-align: left;
+    font-size: 2vh;
+    font-weight: 900;
+    padding: 0%;
+    margin-left: 5vw;
+}
+
+#rightContainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-right: 12vw;
+}
+
+#contactbox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: #E3E3E3 1px solid;
+    border-top: #0E2D52 5px solid;
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    background-color: #F6F9FA;
+    width: 24vw;
+    margin-bottom: 40px;
+}
+
+.rightHeader{
+    position: relative;
+    color: #777777;
+    font-size: 2vh;
+    font-weight: 700;
+    margin-left: 1vw;
+}
+
+.contactInfo{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 1vw;
+    margin-bottom: 20px;
+}
+
+.contactHeader{
+    position: relative;
+    color: #686868;
+    font-size: 1.8vh;
+    font-weight: 600;
+}
+
+.contact{
+    position: relative;
+    color: #000000;
+    font-size: 1.8vh;
+    font-weight: 600;
+    width: 156px;
+}
+
+#infoBox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: #E3E3E3 1px solid;
+    border-top: #0E2D52 5px solid;
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    width: 24vw;
+}
+
+#eduButtons{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vw;
+}
+
+.links{
+    position: relative;
+    background-color: #FFFFFF;
+    color: #BE0523;
+    border-color: #BE0523;
+    border-radius: 0.5rem;
+    width: 22vw;
+    height: 6vh;
+    font-size: 1.8vh;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 14px;
+}
+
+.links:hover{
+    background-color:  #BE0523;
+    color: #FFFFFF;
+}
+
+a{
+    text-decoration: none;
+}
