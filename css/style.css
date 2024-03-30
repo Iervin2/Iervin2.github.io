@@ -6,22 +6,12 @@
     flex-direction: column;
 }
 
-#navBar{
+#webHeader{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:space-between;
     position: relative;
-    width: 75vw;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-#navTitle{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    position: relative;
-    width: 36vw;
+    width: 55vw;
     margin-left: 9vw;
 }
 
@@ -32,7 +22,7 @@
 }
 
 #topHeader{
-    font-size: 2.5vh;
+    font-size: 1.5vw;
     font-weight: 600;
 }
 
@@ -76,7 +66,7 @@
     flex-direction: row;
     justify-content: space-between;
     background-color: #F5F5F5;
-    width: 38vw;
+    width: 37vh;
     padding-left: 2vw;
     padding-right: 2vw;
     margin-left: 9vw;
@@ -105,7 +95,7 @@
     border: 1px solid;
     border-color: #E3E3E3;
     border-radius: 0.25rem;
-    width: 38vw;
+    width: 37vh;
     padding-left: 2vw;
     padding-right: 2vw;
     padding-bottom: 15px;
@@ -162,7 +152,7 @@
     border-radius: 0.5rem;
     width: 7vw;
     height: 4vh;
-    font-size: 1.8vh;
+    font-size: 0.98vw;
     margin-top: 22px;
     align-self: center;
 }
@@ -174,7 +164,7 @@
 
 #statement{
     position: relative;
-    width: 40vw;
+    width: 42vh;
     font-size: 1.9vh;
     font-weight: 800;
     margin-top: 15px;
@@ -184,7 +174,7 @@
 .spacer{
     position: relative;
     background-color: #EEEEEE;
-    width: 42vw;
+    width: 37vh;
     height: 1px;
     margin-top: 15px;
     margin-left: 9vw;
@@ -201,7 +191,7 @@
 
 .contentInfo{
     position: relative;
-    width: 40vw;
+    width: 37vh;
     font-size: 1.8vh;
     font-weight: 400;
     margin-left: 10vw;
@@ -212,7 +202,7 @@
     flex-direction: column;
     position: relative;
     background-color: #0E2D52;
-    width: 36vw;
+    width: 37vh;
     font-size: 1.8vh;
     font-weight: 400;
     margin-left: 12vw;
@@ -232,7 +222,7 @@
 .cardInfo{
     position: relative;
     color: #FFFFFF;
-    width: 26vw;
+    width: 26vh;
     font-size: 1.9vh;
     font-weight: 400;
     margin-left: 5vw;
@@ -268,7 +258,7 @@
     border-bottom-left-radius: 0.25rem;
     border-bottom-right-radius: 0.25rem;
     background-color: #F6F9FA;
-    width: 24vw;
+    width: 37vh;
     margin-bottom: 40px;
 }
 
@@ -312,7 +302,7 @@
     border-top: #0E2D52 5px solid;
     border-bottom-left-radius: 0.25rem;
     border-bottom-right-radius: 0.25rem;
-    width: 24vw;
+    width: 37vh;
 }
 
 #eduButtons{
@@ -328,7 +318,7 @@
     color: #BE0523;
     border-color: #BE0523;
     border-radius: 0.5rem;
-    width: 22vw;
+    width: 35vh;
     height: 6vh;
     font-size: 1.8vh;
     font-weight: 600;
@@ -344,3 +334,31 @@
 a{
     text-decoration: none;
 }
+
+/*stylesheet for screens with max 800 width*/
+@media screen and (max-width: 800px){
+    body{
+        font-size: 0.6rem;
+    }
+
+    #contentWrapper{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+    }
+
+    #leftContainer{
+        border: hidden;
+    }
+
+    #rightContainer{
+        margin-left: 12vw;
+    }
+
+    #eventButton{
+        font-size: 1.4vw;
+    }
+}
+    
