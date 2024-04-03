@@ -66,7 +66,7 @@
     flex-direction: row;
     justify-content: space-between;
     background-color: #F5F5F5;
-    width: 37vh;
+    width: 38vw;
     padding-left: 2vw;
     padding-right: 2vw;
     margin-left: 9vw;
@@ -95,7 +95,7 @@
     border: 1px solid;
     border-color: #E3E3E3;
     border-radius: 0.25rem;
-    width: 37vh;
+    width: 38vw;
     padding-left: 2vw;
     padding-right: 2vw;
     padding-bottom: 15px;
@@ -164,7 +164,7 @@
 
 #statement{
     position: relative;
-    width: 42vh;
+    width: 40vw;
     font-size: 1.9vh;
     font-weight: 800;
     margin-top: 15px;
@@ -174,7 +174,7 @@
 .spacer{
     position: relative;
     background-color: #EEEEEE;
-    width: 37vh;
+    width: 42vw;
     height: 1px;
     margin-top: 15px;
     margin-left: 9vw;
@@ -191,7 +191,7 @@
 
 .contentInfo{
     position: relative;
-    width: 37vh;
+    width: 40vw;
     font-size: 1.8vh;
     font-weight: 400;
     margin-left: 10vw;
@@ -202,7 +202,7 @@
     flex-direction: column;
     position: relative;
     background-color: #0E2D52;
-    width: 37vh;
+    width: 36vw;
     font-size: 1.8vh;
     font-weight: 400;
     margin-left: 12vw;
@@ -222,7 +222,7 @@
 .cardInfo{
     position: relative;
     color: #FFFFFF;
-    width: 26vh;
+    width: 26vw;
     font-size: 1.9vh;
     font-weight: 400;
     margin-left: 5vw;
@@ -289,7 +289,7 @@
 .contact{
     position: relative;
     color: #000000;
-    font-size: 1.8vh;
+    font-size: 1.3vh;
     font-weight: 600;
     width: 156px;
 }
@@ -335,8 +335,8 @@ a{
     text-decoration: none;
 }
 
-/*stylesheet for screens with max 800 width*/
-@media screen and (max-width: 800px){
+/*stylesheet for screens with max 800px width*/
+@media screen and (max-device-width: 800px){
     body{
         font-size: 0.6rem;
     }
@@ -353,6 +353,34 @@ a{
         border: hidden;
     }
 
+    #pathwayBar{
+        width: 37vh;
+    }
+
+    #eventBar{
+        width: 37vh;
+    }
+
+    #statement{
+        width: 42vh;
+    }
+
+    .spacer{
+        width: 37vh;
+    }
+
+    .contentInfo{
+        width: 37vh;
+    }
+
+    .contentCard{
+        width: 37vh;
+    }
+
+    .cardInfo{
+        width: 26vh;
+    }
+
     #rightContainer{
         margin-left: 12vw;
     }
@@ -361,4 +389,44 @@ a{
         font-size: 1.4vw;
     }
 }
+
+/*stylesheet for screens when resized to 920px width*/
+@media screen and (max-width: 920px){
+
+    #webHeader{
+        width: 41vw;
+    }
+
+    #bigImg{
+        margin-left: 9vw;
+        width: 42vw;
+    }
+
+    #contentWrapper{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
     
+    #leftContainer{
+        border: hidden;
+    }
+
+    #rightContainer{
+        margin-left: 12vw;
+    }
+
+    #contactBox{
+        width: 36vw;
+    }
+
+    #infoBox{
+        width: 36vw;
+    }
+
+    .links{
+        width: 34vw;
+    }
+}
